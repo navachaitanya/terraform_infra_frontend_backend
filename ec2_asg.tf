@@ -4,7 +4,7 @@ module "app_ec2_asg" {
   create  = true
   # Autoscaling group
   name                      = var.app_ec2_asg_name
-  instance_name             = var.app_instance_name
+  instance_name             = "${var.app_instance_name}-${var.app_environment}"
   min_size                  = 2
   max_size                  = 2
   desired_capacity          = 2

@@ -2,7 +2,7 @@
 app_name = "terrafrom" # Application Name, ex: test
 #################### VPC - Required Variables ################################################
 vpc_region             = "ap-south-1"                                        # VPC Region, ex: ap-south-1
-app_vpc_name           = "terrafrom-vpc"                                        # VPC Name ex: test-vpc
+app_vpc_name           = "terrafrom-vpc"                                     # VPC Name ex: test-vpc
 app_vpc_cidr_block     = "172.26.0.0/16"                                     # VPC CIDR BLOCK, ex: "172.26.0.0/16"
 app_availability_zones = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]       # VPC Subnets availability Zones ex: "ap-south-1a", "ap-south-1b", "ap-south-1c"
 app_public_subnets     = ["172.26.1.0/24", "172.26.2.0/24", "172.26.3.0/24"] # VPC Public Subnets IPv4 CIDR block for   #of regions provided in availability, ex: "172.26.1.0/24", "172.26.2.0/24", "172.26.3.0/24"
